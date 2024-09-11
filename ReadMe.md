@@ -16,7 +16,6 @@ Esta API permite consultar el precio aplicable de un producto específico en una
     - [Respuesta ERROR](#respuestas-error)
 - [Pruebas POSTMAN](#pruebas-postman)
 - [Testing](#testing)
-- [Contacto](#contacto)
 
 ---
 
@@ -225,7 +224,3 @@ Si se quiere lanzar un test específico se puede hacer mendiante línea de coman
 ```bash
 mvn test -Dtest=ClientezaApplicationsTests#testGetPrice_Error_EndPoint_NotFound_400
 ```
-
-## Contacto
-
-Para cualquier duda o cuestión contactar vía mail <a href="mailto:abeneitezm@minsait.com?subject=Proyecto ClienteZA Github&body=Nos ponemos en contacto contigo para..."><b>abeneitezm@minsait.com</b></a> o a través de Teams [@Beneitez Martín, Álvaro]().
