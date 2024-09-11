@@ -38,6 +38,10 @@ El proyecto se encuentra alojado en GitHub en el repositorio <a href="https://gi
     ```bash
     mvn clean install  // limpiar y compilar el proyecto generado los class
     mvn package // empaquetar y generar el jar
+    ```
+    Comprobar que se haya generado el jar en la carpeta clienteZA/target y acceder a dicha ruta, tras lo cual, ejecutar el siguiente comando:
+
+   ```bash
     java -jar clienteZA-0.0.1-SNAPSHOT.jar -Dserver.port=8080 // arrancar proyecto
     ```
 
