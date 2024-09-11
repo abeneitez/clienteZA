@@ -36,7 +36,8 @@ El proyecto se encuentra alojado en GitHub en el repositorio <a href="https://gi
     4.2 También se puede arrancar desde línea de comandos ejecutando los siguientes comandos:
 
     ```bash
-    mvn clean package // para generar el jar
+    mvn clean install  // limpiar y compilar el proyecto generado los class
+    mvn package // empaquetar y generar el jar
     java -jar clienteZA-0.0.1-SNAPSHOT.jar -Dserver.port=8080 // arrancar proyecto
     ```
 
